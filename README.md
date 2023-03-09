@@ -1,3 +1,17 @@
+# Mentored Airtable Tutorial
+## Goal
+For this demo, mentored developers should learn to use the Airtable API and put to practice the content from their API lecture. Additionally, they'll build on their knowledge of React. Important points of the demo are state and effect hooks, properties of components, and APIs. Also go over .env files and the importance!
+
+## TODOs
+Go over the code in `App.js` with the developers and highlight important parts of code. For a challenge, encourage them to code alongside you! Create an env file as well for the devs that stores the token and other useful environment variables. There is a solution `App.js` in the directory `./solution/App.js`. 
+
+## Notes
+If Kennedy deletes the Airtable with the contents, please just create another one and put the tokens and other necessary variables in the env file.
+
+<br>
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
