@@ -2,11 +2,25 @@
 ## Goal
 For this demo, mentored developers should learn to use the Airtable API and put to practice the content from their API lecture. Additionally, they'll build on their knowledge of React. Important points of the demo are state and effect hooks, properties of components, and APIs. Also go over .env files and the importance!
 
+### Conceptual Checklist
+- [ ] How the use React hooks and the purpose of the state and effect hooks (State is a component memories | Effect is the side effect of a component)
+- [ ] Properties are immutable, so how can we use State to bypass this and pass dynamic information down to components
+- [ ] Why APIs are useful and the structure of requests (URLs, Response Fields, Headers, etc.)
+
 ## TODOs
 Go over the code in `App.js` with the developers and highlight important parts of code. For a challenge, encourage them to code alongside you! Create an env file as well for the devs that stores the token and other useful environment variables. There is a solution `App.js` in the directory `./solution/App.js`. 
 
+### TODO Checklist
+- [ ] Send out appropriate API auth tokens, table ids, etc. (found in your .env file)
+- [ ] Go over the file structure of the React app (including the `.env` file)
+- [ ] Remove the React strict mode tag in `index.js`
+- [ ] Add a useEffect function such that when we initially mount, we make a request to the Airtable endpoint
+- [ ] Create state to store the records queried, the tableIDs, and a global object to store the tableIDs
+- [ ] Iterate through all records and create item box components for each one
+- [ ] Add table switching functionality to the `NavBar` component when clicking
+
 ## Notes
-If Kennedy deletes the Airtable with the contents, please just create another one and put the tokens and other necessary variables in the env file.
+If Kennedy deletes the Airtable with the contents, please just create another one and put the tokens and other necessary variables in the `.env` file. You will be sharing these tokens and ids with the devs so scope it accordingly.
 
 <br>
 
