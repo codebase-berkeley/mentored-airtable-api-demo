@@ -20,7 +20,7 @@ Go over the code in `App.js` with the developers and highlight important parts o
 - [ ] Add table switching functionality to the `NavBar` component when clicking
 
 ## Notes
-If Kennedy deletes the Airtable with the contents, please just create another one and put the tokens and other necessary variables in the `.env` file. You will be sharing these tokens and ids with the devs so scope it accordingly.'
+If Kennedy deletes the Airtable with the contents, please just create another one and put the tokens and other necessary variables in the `.env` file. You will be sharing these tokens and ids with the devs so scope it accordingly.
 
 ## <mark> IMPORTANT:</mark>  Please make sure to `npm install` after cloning the repo to install `node_modules`
 
