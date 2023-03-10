@@ -11,7 +11,7 @@ For this demo, mentored developers should learn to use the Airtable API and put 
 Go over the code in `App.js` with the developers and highlight important parts of code. For a challenge, encourage them to code alongside you! Create an env file as well for the devs that stores the token and other useful environment variables. There is a solution `App.js` in the directory `./solution/App.js`. 
 
 ### TODO Checklist
-- [ ] Send out appropriate API auth tokens, table ids, etc. (found in your .env file)
+- [ ] Send out appropriate API auth tokens, table ids, etc. and create the `.env` file (ASK YOUR PM)
 - [ ] Go over the file structure of the React app (including the `.env` file)
 - [ ] Remove the React strict mode tag in `index.js`
 - [ ] Add a useEffect function such that when we initially mount, we make a request to the Airtable endpoint
